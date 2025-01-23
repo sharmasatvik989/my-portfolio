@@ -10,12 +10,17 @@
   --accent-color: #0071ff;
   
 }
-.darkmode{
+/* .darkmode{
 
-  background-color: black;
-  color: white;
+  --base-color: #070b1d;
+  --base-variant: #101425;
+  --text-color: #ffffff;
+  --secondary-text: #a4a5b8;
+  --primary-color: #3a435d;
+  --accent-color: #0071ff;
   
-}
+
+} */
 * {
   margin: 0;
   padding: 0;
@@ -23,9 +28,6 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: white;
-  color: black;
-  /* color: var(--text-color); */
 }
 
 html {
@@ -451,7 +453,7 @@ footer {
 footer p {
   text-align: center;
 }
-#theme-switch{
+/* #theme-switch{
   height: 50px;
   width: 50px;
   padding: 0;
@@ -475,6 +477,5 @@ footer p {
   display: none;
 }
 .darkmode #theme-switch svg:last-child{
-
-  display: block;
-}
+  
+} */
